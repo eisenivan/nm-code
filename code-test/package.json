@@ -1,0 +1,29 @@
+{
+  "name": "ct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chalk": "^1.1.3",
+    "js-yaml": "^3.6.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node useLogger"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
